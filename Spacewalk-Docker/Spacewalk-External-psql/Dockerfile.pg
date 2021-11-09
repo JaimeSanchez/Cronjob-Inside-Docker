@@ -1,0 +1,12 @@
+FROM postgres:10.11
+
+RUN apt-get update && \
+    apt-get install -y postgresql-pltcl-10
+
+
+
+# Enter Inside Container
+# psql -d postgres -U postgres
+# \connect postgres
+# \dL
+# CREATE EXTENSION pltclu;
