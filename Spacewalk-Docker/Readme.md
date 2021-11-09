@@ -39,3 +39,15 @@ one for spacewalk and one for postgres
 6)Spacewalk creates the default self signed certificate but when we open it to browser 
   it give security issue because by default it redirect http to https
 ```
+---------------
+
+#### Error Reference Links 
+```
+https://marc.info/?l=spacewalk-list&m=153792669712420&w=2
+
+https://bugzilla.redhat.com/show_bug.cgi?id=1506597
+
+https://listman.redhat.com/archives/spacewalk-list/2019-January/msg00014.html
+
+
+```
