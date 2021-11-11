@@ -1,0 +1,8 @@
+FROM postgres:10.11
+
+RUN apt-get update -y
+RUN apt-get install -y postgresql-pltcl-10
+
+ENV POSTGRES_PASSWORD=aditya
+
+COPY schema.sql /docker-entrypoint-initdb.d
